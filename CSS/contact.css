@@ -1,0 +1,80 @@
+.leftright{
+    display: flex;
+}
+
+body{
+    
+    background: url(images.jpg);
+    background-size: cover;
+    padding: 30px;
+    background-repeat: no-repeat;
+}
+
+.img1{
+    width: 20px ;
+    height: 20px;
+    border-radius: 50%;
+    left: 35px;
+    bottom: 200px;
+}
+
+.img2{
+    width: 20px ;
+    height: 20px;
+    border-radius: 50%;
+    left: 24px;
+    bottom: 155px;
+}
+
+.img3{
+    width: 20px ;
+    height: 20px;
+    border-radius: 50%;
+    left: 24px;
+    bottom: 62px;
+}
+
+.contact{
+    padding-top: 20px;
+    padding-left: 50px;
+}
+
+.box{
+    position: absolute;
+    left: 550px;
+    font-size: x-large;
+    box-sizing: border-box;
+    background:white;
+    box-shadow: black 100px solid;
+    height:fit-content;
+    padding:40px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea{
+    outline: none;
+    background-color: transparent;
+    opacity: 1px ;
+    padding: 2px;
+    width: 100%;
+    box-shadow: black 2px;
+    border: none;
+    border-bottom: black 1px solid;
+}
+
+input::placeholder{
+    color:black;
+}
+
+textarea::placeholder{
+    color:black;
+}
+
+input[type="submit"]:hover{
+   
+    border-radius: 5px;
+    background-color:rgba(92, 204, 235, 0.797);
+    background-size: 500px;
+   
+}
